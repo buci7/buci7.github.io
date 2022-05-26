@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@1,300&family=Roboto:wght@500&display=swap');
+
+@font-face {
+    font-family: "Oswald";
+    src: url("/CSS/fonts/Oswald-Regular.ttf");
+    font-weight: 500;
+
+}
+
+@font-face {
+    font-family: "Oswald-light";
+    src: url(/CSS/fonts/Oswald-ExtraLight.ttf);
+    font-weight: 200;
+
+
+}
+
+html {
+    text-transform: normal;
+
+}
+
+h1 {
+    color: rgb(99, 78, 219);
+    font-family: 'Roboto', Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h3 {
+    font-family: 'roboto';
+}
+
+#bioHeader {
+    color: rgb(44, 156, 221);
+    font-family: 'roboto', sans-serif;
+}
+
+#SkillzHeader {
+    color: coral;
+}
+
+.content {
+    color: rgb(59, 78, 6);
+    font-size: 50px;
+
+    font-family: 'Kodchasan';
+    text-align: justify;
+    text-transform: normal;
+    line-height: normal;
+    font-weight: lighter;
+    margin: 20px 10px;
+    padding: 30px 0 0 0;
+    border-top: solid 1px rebeccapurple;
+    max-width: 75%;
+
+
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.imgDiv {
+    background-color: rgb(91, 132, 247);
+}
+
+.light {
+    background-color: rgb(4, 176, 228);
+}
+
+p {
+    color: rgb(62, 56, 153);
+    font-size: 50px;
+
+    font-family: 'Kodchasan';
+    text-align: justify;
+    text-transform: normal;
+    line-height: normal;
+    font-weight: lighter;
+}
+
+img {
+    
+    height: 14.3%;
+    width: 14.2%;
+    box-shadow: 5px 5px 10px rgb(3, 3, 3);
+    margin: 1%;
+
+
+}
+#img-1{ 
+    visibility: collapse;
+}
